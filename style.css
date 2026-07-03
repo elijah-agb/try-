@@ -1,0 +1,57 @@
+/* 1. Basic Setup & Font */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* 2. Styling the Header */
+header {
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #1abc9c; /* A nice accent color */
+}
+
+/* 3. Navigation Links */
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #1abc9c;
+}
+
+/* 4. Main Sections */
+section {
+    max-width: 800px; /* Keeps the text from stretching too wide */
+    margin: 40px auto; /* Centers the section */
+    padding: 0 20px;
+}
+
+h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #1abc9c;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+/* 5. Clean up the default lines */
+hr {
+    display: none; /* Hides the ugly default lines we used earlier */
+}
